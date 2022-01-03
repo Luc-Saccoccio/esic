@@ -189,7 +189,7 @@ int main(int argc, char *argv[]) {
 					printf("Couldn't open file");
 				else interpret(file_content);
 				free(file_content);
-        printf("\n%s - Interpreted\n", file);
+        printf("%s - Interpreted\n", file);
 			} else if (transpiler) {
 				transpiler = false;
 				char* output_file = strcat(remove_ext(file, '.', '/'), ".c");

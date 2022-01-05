@@ -144,7 +144,7 @@ static void transpile(char* input, FILE* output) {
 
 static void compile(char* input) {
 	char* output_file = remove_ext(basename(input), '.', '/');
-	char* template = malloc(1025 * sizeof(char));
+	char* template = malloc(256 * sizeof(char));
 
 	strcpy(template, output_file);
 	strcat(template, "XXXXXX.c");

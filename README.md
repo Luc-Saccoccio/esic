@@ -15,18 +15,18 @@ Esolangs compilers/interpreters I write to pass time.
 
 #### C
 
-- [x] - Transpiler
-- [x] - Compiler
-- [x] - Intepreter
+- [x] Transpiler
+- [x] Compiler
+- [x] Intepreter
 
 #### Haskell
 
-- [ ] - Transpiler
-- [ ] - Compiler
-- [x] - Interpreter
+- [ ] Transpiler
+- [ ] Compiler
+- [x] Interpreter
 
 #### OCaml
 
-- [x] - Transpiler
-- [x] - Compiler
-- [ ] - Interpreter
+- [x] Transpiler
+- [x] Compiler
+- [ ] Interpreter

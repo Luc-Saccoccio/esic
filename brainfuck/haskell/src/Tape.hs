@@ -2,8 +2,11 @@ module Tape  where
 
 import           Data.Char (chr)
 import           Data.Int  (Int8)
+import Data.Function (fix)
 
-data Tape a = Tape [a] a [a]
+data Stream a = a :> Stream a
+
+data Tape a = Tape (Stream a) a (Stream a)
 
 writeTape :: Tape a -> a -> Tape a
 writeTape (Tape l _ r) x = Tape l x r
@@ -18,17 +21,14 @@ decTape :: Num a => Tape a -> Tape a
 decTape (Tape l x r) = Tape l (x-1) r
 
 moveRightTape :: Tape a -> Tape a
-moveRightTape (Tape l x []) =
-  let (rx:rxs) = reverse (x:l) in
-      Tape [] rx rxs
-moveRightTape (Tape l x (r:rs)) = Tape (x:l) r rs
+moveRightTape (Tape l x (r :> rs)) = Tape (x :> l) r rs
 
 moveLeftTape :: Tape a -> Tape a
-moveLeftTape (Tape [] x r) =
-  let (lx:lxs) = reverse (x:r) in
-      Tape lxs lx []
-moveLeftTape (Tape (l:ls) x r) = Tape ls l (x:r)
+moveLeftTape (Tape (l :> ls) x r) = Tape ls l (x :> r)
+
+streamOf :: a -> Stream a
+streamOf x = fix (x :>)
 
 -- | Haskell gives us infinite array, hurray !
 blankTape :: Tape Int8
-blankTape = Tape [] 0 (repeat 0)
+blankTape = Tape (streamOf 0) 0 (streamOf 0)

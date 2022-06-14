@@ -84,6 +84,9 @@ TODO
 ### [Magritte](https://esolangs.org/wiki/Magritte)
 TODO
 
+### [Math++](https://esolangs.org/wiki/Math%2B%2B)
+TODO
+
 ## [Ni](https://esolangs.org/wiki/Ni)
 TODO
 
@@ -91,7 +94,14 @@ TODO
 TODO
 
 ### [Stack Cats](https://esolangs.org/wiki/Stack_Cats)
-TODO
+
+#### Haskell
+
+Loops don't work. Otherwise, the rest should work properly.
+
+- [ ] Transpiler
+- [ ] Compiler
+- [ ] Interpreter
 
 ### [SussyLang](https://esolangs.org/wiki/SussyLang)
 TODO

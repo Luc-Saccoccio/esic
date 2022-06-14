@@ -29,6 +29,5 @@ moveLeftTape (Tape (l :> ls) x r) = Tape ls l (x :> r)
 streamOf :: a -> Stream a
 streamOf x = fix (x :>)
 
--- | Haskell gives us infinite array, hurray !
 blankTape :: Tape Int8
 blankTape = Tape (streamOf 0) 0 (streamOf 0)

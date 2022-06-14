@@ -104,4 +104,9 @@ Loops don't work. Otherwise, the rest should work properly.
 - [ ] Interpreter
 
 ### [SussyLang](https://esolangs.org/wiki/SussyLang)
-TODO
+
+#### Haskell
+
+- [ ] Transpiler
+- [ ] Compiler
+- [x] Intepreter

@@ -34,6 +34,9 @@ Esolangs compilers/interpreters I write to pass time.
 ### [Chicken](https://esolangs.org/wiki/Chicken)
 TODO
 
+### [Deadfish](https://esolangs.org/wiki/Deadfish)
+TODO
+
 ### [DeadSimple](https://esolangs.org/wiki/DeadSimple)
 
 #### Haskell
@@ -87,11 +90,19 @@ TODO
 ### [Math++](https://esolangs.org/wiki/Math%2B%2B)
 TODO
 
+### [Microscript](https://esolangs.org/wiki/Microscript)
+TODO
+
 ## [Ni](https://esolangs.org/wiki/Ni)
 TODO
 
 ### [Photon](https://esolangs.org/wiki/Photon)
-TODO
+
+#### Haskell
+
+- [ ] Transpiler
+- [ ] Compiler
+- [x] Interpreter
 
 ### [Stack Cats](https://esolangs.org/wiki/Stack_Cats)
 
@@ -110,3 +121,6 @@ Loops don't work. Otherwise, the rest should work properly.
 - [ ] Transpiler
 - [ ] Compiler
 - [x] Intepreter
+
+### [Tellurium](https://esolangs.org/wiki/Tellurium)
+TODO

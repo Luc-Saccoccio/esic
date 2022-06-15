@@ -72,6 +72,9 @@ TODO
 ### [Help, WarDoq!](https://esolangs.org/wiki/Help,_WarDoq%21)
 TODO
 
+### [Integ](https://esolangs.org/wiki/Integ)
+TODO
+
 ### [IRC](https://esolangs.org/wiki/IRC)
 TODO
 
@@ -81,10 +84,16 @@ TODO
 ### [Jelly](https://esolangs.org/wiki/Jelly)
 TODO
 
-#### [LinuxLang](https://esolangs.org/wiki/LinuxLang)
+### [Kepler](https://esolangs.org/wiki/Kepler)
+TODO
+
+### [LinuxLang](https://esolangs.org/wiki/LinuxLang)
 TODO
 
 ### [Magritte](https://esolangs.org/wiki/Magritte)
+TODO
+
+### [Malbolge](https://esolangs.org/wiki/Malbolge)
 TODO
 
 ### [Math++](https://esolangs.org/wiki/Math%2B%2B)
@@ -93,7 +102,7 @@ TODO
 ### [Microscript](https://esolangs.org/wiki/Microscript)
 TODO
 
-## [Ni](https://esolangs.org/wiki/Ni)
+### [Ni](https://esolangs.org/wiki/Ni)
 TODO
 
 ### [Photon](https://esolangs.org/wiki/Photon)
@@ -103,6 +112,9 @@ TODO
 - [ ] Transpiler
 - [ ] Compiler
 - [x] Interpreter
+
+### [Puberty](https://esolangs.org/wiki/PUBERTY)
+TODO
 
 ### [Stack Cats](https://esolangs.org/wiki/Stack_Cats)
 
@@ -123,4 +135,7 @@ Loops don't work. Otherwise, the rest should work properly.
 - [x] Intepreter
 
 ### [Tellurium](https://esolangs.org/wiki/Tellurium)
+TODO
+
+### [Urn](https://esolangs.org/wiki/Urn)
 TODO
